@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Homestay from './app/Homestay'
+import Homestay from './app/Homestay/Homestay'
 
 function App() {
   return (
