@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, CardBody, Row, Col } from 'reactstrap'
+import './homestay.css'
 
 
 class HomestayList extends React.Component {
