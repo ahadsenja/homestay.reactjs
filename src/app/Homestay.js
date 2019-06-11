@@ -25,9 +25,9 @@ class Homestay extends React.Component {
         axios.get(URL)
             .then((response) => {
                 this.setState({ homestays: response.data })
-            })
+            }, [])
     }
-
+    
     render() {
         const center = {
             lat: -7.797068,
